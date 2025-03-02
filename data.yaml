@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['decaycavity', 'earlydecay', 'healthytooth']
+
+roboflow:
+  workspace: meproject-4mubm
+  project: mydata-wrg2p-t8nuc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/meproject-4mubm/mydata-wrg2p-t8nuc/dataset/1
